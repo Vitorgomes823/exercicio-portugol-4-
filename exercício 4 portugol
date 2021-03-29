@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numero,  maior1 = 0  , maior2 = 0 , contagem 
+
+		para (contagem = 1 ;contagem <= 3; contagem++ )
+		{
+			escreva("Digite um número : ")
+			leia(numero)
+			limpa()
+			se (numero > maior1)
+			{
+				maior1 = numero
+			}
+			se (numero < maior1 e numero > maior2)
+				maior2 = numero
+		}
+
+		escreva(" a soma entre os maiores números é : ", maior1 + maior2)
+		
+		
+	}
+}
